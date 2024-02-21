@@ -19,6 +19,8 @@ body {
     gap: 10px;
 
     padding-bottom: 20px;
+
+    animation: 2s 1 normal animateUp;
 }
 
 img {
@@ -53,4 +55,15 @@ h1 {
 p {
     color: rgb(100 116 139);
     font-size: 0.8em; 
+}
+
+@keyframes animateUp {
+
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
 }
